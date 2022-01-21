@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- bootstrap icon cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Business Website</title>
+</head>
+<body>
+	
+	<!-- navigation-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top shadow">
+	<div class="container-fluid">
+		<a href="#" class="navbar-brand font-monospace">Menyhart Media</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expaneded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse"id="navbar">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"><a href="#" class="nav-link text-uppercase active">Home</a></li>
+				<li class="nav-item"><a href="#About" class="nav-link text-uppercase">About us</a></li>
+				<li class="nav-item"><a href="#Team" class="nav-link text-uppercase">Team</a></li>
+				<li class="nav-item"><a href="#Services" class="nav-link text-uppercase">Services</a></li>
+				<li class="nav-item"><a href="#Contact" class="nav-link text-uppercase">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<!-- header > get started content and model -->
+	<header class="vh-100" style="background: url(https://source.unsplash.com/3fPXt37X6UQ) center/cover no-repeat;">
+		<div class="container mt-5 pt-5 h-25">
+			<h4 class="text-light font-monospace text-shadow animate-text-right">
+				Financial planning for Life
+			</h4>
+			<h1 class="display-1 text-white text-shadow animate-text-right-3s">Trusted to help guide enterpreneurs make better financial decisions.</h1>
+			<button class="btn btn-lg btn-info shadow mt-3 animate-text-right-5s" data-bs-toggle="modal" data-bs-target="#GetOffer">Get offer</button>
+		</div>
+		<div class="modal fade" id="GetOffer" tabindex="-1" aria-labelledBy="GetOfferLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="GetOfferLabel">New Message</h5><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form><div class="mb-3"><label class="col-form-label">Recipient</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="mb-3"><label class="col-form-label">First Name</label>
+						<input type="text" class="form-control" placeholder="Enter your First Name">
+					</div>
+					<div class="mb-3"><label class="col-form-label">Last Name</label>
+						<input type="text" class="form-control" placeholder="Enter your last name">
+					</div>
+					<div class="mb-3"><label class="col-form-label">Message</label>
+						<textarea type="text" class="form-control" ></textarea> 
+					</div>
+				</form>
+				</div>
+				<div class="modal-footer"><button class="btn btn-danger" type="button" data-bs-dismiss="modal">close</button>
+					<button class="btn btn-primary" type="submit">Submit</button></div>
+				</div>
+				
+			</div>  
+		</div>
+	</header>
+
+	<!-- about > about model content -->
+	<section id="About" class="container mt-5 pt-5">
+		<div class="row">
+			<div class="col-lg-6">
+				<h4 class="font-monospace my-5">About Us!</h4>
+				<h2 class="display-1">Since 2008 this business grows</h2>
+			</div>
+		</div>
+		<div class="card">
+		<div class="card my-3 text-white bg-info mx-auto " style="max-width: 1400px;">
+			<div class="row g-0">
+				<div class="col-md-6">
+					<img src="https://source.unsplash.com/376KN_ISplE"class="card-img-top"/>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body mt-3 p-2 text-center">
+					<h5 class="card-title fs-5 font-monospace">Who are we</h5>
+					<p class="card-text fs-1 mt-3">we keep things nice</p>
+					<button class="btn btn-light mt-3 shadow"type="button" data-bs-toggle="modal" data-bs-target="#aboutModal">What we Do <i class="bi bi-info-circle" data-bs-toggle="tooltip" data-bs-placement="right" title="Learn More"></i></button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="aboutModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="aboutModalLabel">About us</h5>
+					<nav id="about-content-ul">
+						<ul class="nav">
+							<li class="nav-item"><a href="#2000" class="nav-link">2000</a></li>
+							<li class="nav-item"><a href="#2014" class="nav-link">2014</a></li>
+							<li class="nav-item"><a href="#2018" class="nav-link">2018</a></li>
+							<li class="nav-item"><a href="#2020" class="nav-link">2020</a></li>
+						</ul>
+					</nav>
+					<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h4 id="2008">in 2000</h4>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, veritatis animi ad ratione. Ad dolor nam distinctio unde consequatur, dicta?
+					</p>
+					<h4 id="2000">in 2008</h4>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in officiis optio autem ipsum eius illo enim qui molestias esse, explicabo recusandae, quisquam itaque natus facilis praesentium incidunt, inventore. Itaque mollitia corrupti unde beatae quo consequatur ad, provident quos distinctio incidunt harum, repellat ullam cum sint et aliquam reprehenderit similique corporis. Placeat quibusdam consequatur quam aliquam hic, aliquid veniam nisi, magnam praesentium facere suscipit? Saepe consequuntur ut, vitae fuga natus, expedita minus enim minima distinctio maxime earum maiores id nulla, sapiente et suscipit in, repudiandae inventore veniam alias ipsa velit excepturi deleniti. Reiciendis, vero. Beatae officia porro delectus ratione ab.
+					</p>
+					<h4 id="2014">in 2014</h4>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, veritatis animi ad ratione. Ad dolor nam distinctio unde consequatur, dicta?
+					</p>
+					<h4 id="2018">in 2018</h4>
+					<p>
+						Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Reprehenderit, ratione, iusto. Nobis unde architecto nesciunt temporibus corporis tenetur tempora velit magni quisquam excepturi totam voluptas laudantium vero accusantium expedita, culpa porro saepe modi alias magnam repellendus. Beatae, perferendis tempore eos iure cumque architecto ut sequi laborum sit dolore distinctio recusandae fugit doloribus quis, harum reprehenderit officia, possimus accusantium at eius veniam, modi et. Voluptate quam sit excepturi laborum quos neque earum hic sequi facilis, nobis, eaque nostrum soluta perspiciatis dignissimos, quasi possimus totam minima temporibus reiciendis voluptas perferendis at similique officia quia? Doloremque iusto est sint amet rem ipsum sunt accusamus dolorum! Consequuntur, hic iste voluptas soluta laboriosam minus. Eligendi ad blanditiis, a error, voluptatem non maiores. Repellendus nostrum soluta minima. Et quibusdam optio temporibus, quis voluptatem ipsum tenetur labore. Autem voluptatum voluptatem neque, mollitia, nulla totam quia exercitationem culpa minima quidem fugit, et adipisci quis vero rem libero. Fuga, vitae, dicta dolorum blanditiis perspiciatis praesentium placeat minus sed aliquam at? Inventore, sequi accusantium exercitationem accusamus aut rem explicabo ea, eum. Voluptas iure nisi voluptate fugiat facilis dolorum rem beatae aut earum qui temporibus cumque unde ducimus laudantium necessitatibus ratione quo natus omnis quaerat, cum ut est magni, eveniet, laboriosam.
+					</p>
+					<h4 id="2020">in 2020</h4>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure sunt voluptates soluta dolorum, libero maxime illo possimus impedit, odio quisquam consectetur! Nihil doloribus, corrupti expedita molestias deserunt, id est, recusandae ipsa error, numquam sed. Asperiores assumenda veritatis odit nulla ipsam excepturi ad dignissimos, odio exercitationem, accusamus eos, labore quisquam! Perspiciatis maxime minima assumenda, voluptates ullam et cumque, distinctio sapiente praesentium ut illum ratione officiis possimus ipsum optio libero exercitationem veniam. Temporibus hic magni nobis similique minima eaque esse quidem facere voluptatibus atque incidunt soluta repellat laudantium iusto mollitia inventore veniam provident, fuga ipsam earum ullam ea, cumque itaque officiis? Illum ipsum tempore, pariatur quaerat necessitatibus? Nulla, quod aperiam tempore beatae eius. Ipsa veniam vel omnis nesciunt excepturi amet maxime, id nam quidem neque laboriosam alias sequi aliquam nihil, voluptate facilis sapiente pariatur quaerat nobis officia totam. Placeat praesentium mollitia, et quae optio, ratione, minus, incidunt labore maxime hic temporibus suscipit corporis harum modi iure magni tempore. Sequi adipisci eligendi itaque animi, repellendus dolorem nostrum saepe fugiat quis in repudiandae voluptates odit, repellat temporibus iste commodi sed. Ipsum adipisci magni reiciendis veniam saepe nobis ea quaerat asperiores corporis officiis aliquam necessitatibus autem qui, ex minima eaque id nostrum. Quae, possimus.
+					</p>
+					<div class="modal-footer"><button class="btn btn-danger" data-bs-dismiss="modal" type="button">CLose</button></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	</section>
+	<!-- team -->
+	<!-- footer -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  		return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+	</script>
+</body>
+</html>
