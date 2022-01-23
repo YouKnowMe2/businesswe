@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- bootstrap icon cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<title>Photo Theme</title>
+</head>
+<body >
+	<!-- navigation-->
+	<nav class="navbar fixed-top navbar-light bg-light">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand text-danger fw-bolder">
+				<i class="bi bi-camera"></i> iShoot
+			</a>
+			<button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navbar"aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	<div class="collapse navbar-collapse"id="navbar">
+		<div class="navbar-nav">
+			<a href="#" class="nav-link active" aria-current="page">Home</a>
+			<a href="#Experience" class="nav-link" >Experience</a>
+			<a href="#portfolio" class="nav-link" >Portfolio</a>
+		</div>
+	</div>
+		</div>
+	</nav>
+	<!-- header-->
+    <header class="row row-cols-2 vh-100 flex-row align-items-center justify-content-center">
+    <div class="col-sm-6 container text-center text-sm-start" style="width:500px">
+    	<div class="card card-header bg-white font-monospace text-secondary">Photographer</div>
+		<div class="card-body">
+    	<h5 class="card-title display-1 fw-bold">Shooting Your Memories</h5>
+    	<p class="card-text text-secondary mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia minus, beatae optio aperiam aut quaerat maiores nam incidunt numquam. Ipsa.</p>
+    	<div class="d-flex flex-sm-row flex-coloum mt-4">
+    		<button class="btn btn-danger shadow" type="button" data-bs-toggle="modal" data-bs-target="#email"><i class="bi bi-envelope"></i> Email Me Here</button>
+    		<span class="fs-2 mt-5 mt-sm-0">
+    			<a href="#" class=""><i class="bi bi-facebook text-dark ms-sm-5 ms-2"></i></a>
+    			<a href="#" class=""><i class="bi bi-twitter text-dark ms-sm-5 ms-2"></i></a>
+    		</span>
+    	</div>
+    </div>
+  
+    </div>
+    <div class="col-sm-6 text-center container">
+    	<div class="card border-0">
+    		<i class="bi bi-instagram text-danger display-1"></i>
+    		<h6 class="text-muted mt-4">CheckOut My </h6>
+    	   <h4 class="text-uppercase" >
+    	   	<a href="#" class="text-decoration-none">instagram <i class="bi bi-arrow-right"></i></a>
+    	   </h4>
+    	</div>
+    </div>	
+    	<!-- hedaer > modal> form >term of service 
+    	-->
+    <div class="modal fade" id="email" tabindex="-1" aria-hidden="true">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header bg-warning">
+    				<div class="modal-title">Book a shoot</div>
+    				<button class="btn btn-close" data-bs-dismiss="modal"></button>
+    			</div>
+    			<div class="modal-body">
+    				<form action="#" class="row g-3">
+    					  <div class="col-md-6"><label  class="form-label">First Name</label><input type="text" class="form-control"></div>
+    					  <div class="col-md-6"><label  class="form-label">Last Name</label><input type="text" class="form-control"></div>
+    					  <div class="col-12"><label  class="form-label">Address</label><input type="text" class="form-control"></div>
+    					  <div class="col-12"><label  class="form-label">Address 2</label><input type="text" class="form-control"></div>
+    					  <div class="col-md-6">
+    					  	<div class="col-12"><label  class="form-label">City</label><input type="text" class="form-control"></div>
+    					  </div>
+    					  <div class="col-md-4">
+    					  	<label  class="form-label">State</label>
+    					  	<select class="form-select">
+    					  		<option selected>Choose..</option>
+    					  		<option >State 01</option>
+    					  		<option >State 02</option>
+    					  		<option >State 03</option>
+
+    					  	</select>
+    					  </div>
+    					  <div class="col-md-2">
+    					  	<label  class="form-label">Zip</label><input type="text" class="form-control">
+    					  </div>
+    					  <div class="col-12"><a href="" class="text-link" role="button" data-bs-toggle="modal" data-bs-target="#ts">Terms & Services</a>
+    					  	<div class="form-check">
+    					  		<input type="checkbox" class="form-check-input">
+    					  		<label  class="form-check-label">I agree</label>
+    					  	</div>
+    					  </div>
+    					  <div class="col-12">
+    					  	<button class="btn btn-primary w-100" type="submit">Send</button>
+    					  </div>
+    					  <div class="modal fade" id="ts" tabindex="-1" aria-hidden="true">
+    					  	<div class="modal-dialog modal-dialog-centered">
+    					  		<div class="modal-content">
+    					  			<div class="modal-header">
+    					  				<h5 class="modal-title">Terms & Services</h5>
+    					  				<button class="btn btn-close" type="button" data-bs-dismiss="modal"></button>
+    					  			</div>
+    					  			<div class="modal-body">
+    					  				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad tenetur optio dolore, error quis odit iure voluptate, debitis non est quam voluptatem obcaecati quos? Mollitia, ullam labore placeat odit facilis maxime fuga eum dignissimos suscipit qui ab voluptatem dolorum exercitationem, dolorem natus voluptatum perspiciatis harum recusandae. Dicta sequi itaque nostrum. Culpa ut placeat laudantium, obcaecati et unde illum, nam adipisci beatae. Dolor numquam sapiente magnam explicabo aperiam, sequi officiis veritatis maxime consequuntur voluptatibus similique praesentium quibusdam, laboriosam et totam impedit ducimus iure ratione. Facilis, voluptates aut iure illo sequi quas nisi eos repellat accusamus dolore animi, tempore similique nihil ratione inventore rerum deleniti cum, quasi maxime at cupiditate, fugit iusto dolores nam ipsam. Odit ab optio eius quidem veniam voluptates aliquid, necessitatibus odio dolore? Repellat cupiditate commodi dolore incidunt perspiciatis quidem necessitatibus hic, labore eius aut maxime soluta omnis voluptas, quos! Porro dignissimos eum, nam officia temporibus magnam labore minima ex, adipisci qui ullam, vero odio, distinctio debitis consectetur! Enim accusantium molestias autem dolores amet dicta a ipsa repudiandae, doloribus eos sint nemo ex ipsam hic reprehenderit magnam reiciendis, odio necessitatibus, dignissimos id asperiores commodi. Sit iure repellendus quisquam inventore, provident consequatur numquam commodi reprehenderit ipsum eligendi ipsam autem fugit.
+    					  			</div>
+    					  			<div class="modal-footer">
+    					  				<button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+    					  			</div>
+    					  		</div>
+    					  	</div>
+    					  </div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    </header>
+	
+	<!-- main-->
+	<main>
+		<!-- main > experience -->
+		<section id="Experience" class="row row-flex bg-light align-items-center justify-content-around pb-5">
+	<!--  main > experience >title-->
+		<div class="col-sm-6 mt-5 text-center text-sm-start" style="width: 500px">
+			<div class="card-header bg-light font-monospace text-secondary">
+			Experience
+			</div>
+			<div class="card-body">
+				<h5 class="card-title display-1 fw-bold">I have been capturing memories for last 10 years</h5>
+				<p class="card-text text-secondary mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Amet est, quas voluptates odit, quidem ipsam cupiditate, quod, illo sint numquam harum mollitia repudiandae architecto sit. Eaque pariatur nam quisquam fugit?</p>
+			</div>
+		</div>		
+
+			<!--  main > experience >photos-->
+			<div class="col-sm-6">
+				<div class="row gy-5 row-cols-1 row-cols-md-2 text-centered text-sm-start mx-5 mx-sm-0">
+			<!--  main > experience >photos> portrait-->
+			<div class="col">
+				<div class="card shadow">
+					<div class="card-body">
+						<i class="bi bi-camera fs-3 text-danger"></i>
+						<h5 class="card-title">Portrait Photos</h5>
+						<p class="card-text">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus commodi quos eaque perferendis ullam magni sunt ipsam aspernatur quas saepe.</p>
+						<a href="#" class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#potrait_photos">View Photos</a>
+						<div class="modal fade" id="potrait_photos" aria-hidden="true" tabindex="-1">
+							<div class="modal-dialog modal-dialog-center">
+							 <div class="modal-content">
+							 	<div class="modal-header">
+							 	<div class="modal-title">Portrait Photos</div>
+							 	<button class="btn btn-close" type="button" data-bs-dismiss="modal"></button>
+							 	</div>
+                                  <div class="modal-body">
+                                  	<div class="carousel slide" id="portrait_photoscap" data-bs-ride="carousel">
+                                  		<div class="carousel-indicators">
+                                  			<button class="active" type="button" data-bs-target="#portrait_photoscap" data-bs-slide-to="0" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#portrait_photoscap" data-bs-slide-to="1" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#portrait_photoscap" data-bs-slide-to="2" aria-current="true"></button>
+                                  		</div>
+                                  		<div class="carousel-inner">
+                                  			<div class="carousel-item active">
+                                  				<img src="https://source.unsplash.com/weekly?portait/" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>First Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?portait/blue" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Second Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?portait/red" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Third Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  		</div>
+                                  		<button type="button" class="carousel-control-prev" data-bs-target="#portrait_photoscap" data-bs-slide="prev">
+                                  			<span class="carousel-control-prev-icon"> </span>
+                                  		</button>
+                                  		<button type="button" class="carousel-control-next" data-bs-target="#portrait_photoscap" data-bs-slide="next">
+                                  			<span class="carousel-control-next-icon"> </span>
+                                  		</button>
+                                  	</div>
+                                  </div>
+                                  <div class="carousel-footer"><button class="btn btn-danger w-100" type="button" data-bs-dismiss="modal">Close</button></div>
+							 	</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  main > experience >photos > travel-->
+			<div class="col">
+				<div class="card shadow">
+					<div class="card-body">
+						<i class="bi bi-camera2 fs-3 text-danger"></i>
+						<h5 class="card-title">Travel Photos</h5>
+						<p class="card-text">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus commodi quos eaque perferendis ullam magni sunt ipsam aspernatur quas saepe.</p>
+						<a href="#" class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#travel_photos">View Photos</a>
+						<div class="modal fade" id="travel_photos" aria-hidden="true" tabindex="-1">
+							<div class="modal-dialog modal-dialog-center">
+							 <div class="modal-content">
+							 	<div class="modal-header">
+							 	<div class="modal-title">Travel Photos</div>
+							 	<button class="btn btn-close" type="button" data-bs-dismiss="modal"></button>
+							 	</div>
+                                  <div class="modal-body">
+                                  	<div class="carousel slide" id="travel_photoscap" data-bs-ride="carousel">
+                                  		<div class="carousel-indicators">
+                                  			<button class="active" type="button" data-bs-target="#portrait_photoscap" data-bs-slide-to="0" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#travel_photoscap" data-bs-slide-to="1" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#travel_photoscap" data-bs-slide-to="2" aria-current="true"></button>
+                                  		</div>
+                                  		<div class="carousel-inner">
+                                  			<div class="carousel-item active">
+                                  				<img src="https://source.unsplash.com/weekly?travel/" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>First Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?travel/city" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Second Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?travel/nature" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Third Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  		</div>
+                                  		<button type="button" class="carousel-control-prev" data-bs-target="#travel_photoscap" data-bs-slide="prev">
+                                  			<span class="carousel-control-prev-icon"> </span>
+                                  		</button>
+                                  		<button type="button" class="carousel-control-next" data-bs-target="#travel_photoscap" data-bs-slide="next">
+                                  			<span class="carousel-control-next-icon"> </span>
+                                  		</button>
+                                  	</div>
+                                  </div>
+                                  <div class="carousel-footer"><button class="btn btn-danger w-100" type="button" data-bs-dismiss="modal">Close</button></div>
+							 	</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  main > experience >photos> weeding-->
+			<div class="col">
+				<div class="card shadow">
+					<div class="card-body">
+						<i class="bi bi-camera-reels fs-3 text-danger"></i>
+						<h5 class="card-title">Weeding Photos</h5>
+						<p class="card-text">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus commodi quos eaque perferendis ullam magni sunt ipsam aspernatur quas saepe.</p>
+						<a href="#" class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#wed_photos">View Photos</a>
+						<div class="modal fade" id="wed_photos" aria-hidden="true" tabindex="-1">
+							<div class="modal-dialog modal-dialog-center">
+							 <div class="modal-content">
+							 	<div class="modal-header">
+							 	<div class="modal-title">Wedding Photos</div>
+							 	<button class="btn btn-close" type="button" data-bs-dismiss="modal"></button>
+							 	</div>
+                                  <div class="modal-body">
+                                  	<div class="carousel slide" id="wed_photoscap" data-bs-ride="carousel">
+                                  		<div class="carousel-indicators">
+                                  			<button class="active" type="button" data-bs-target="#portrait_photoscap" data-bs-slide-to="0" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#wed_photoscap" data-bs-slide-to="1" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#wed_photoscap" data-bs-slide-to="2" aria-current="true"></button>
+                                  		</div>
+                                  		<div class="carousel-inner">
+                                  			<div class="carousel-item active">
+                                  				<img src="https://source.unsplash.com/weekly?weeding/" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>First Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?weeding/groom" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Second Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?weeding/bride" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Third Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  		</div>
+                                  		<button type="button" class="carousel-control-prev" data-bs-target="#wed_photoscap" data-bs-slide="prev">
+                                  			<span class="carousel-control-prev-icon"> </span>
+                                  		</button>
+                                  		<button type="button" class="carousel-control-next" data-bs-target="#wed_photoscap" data-bs-slide="next">
+                                  			<span class="carousel-control-next-icon"> </span>
+                                  		</button>
+                                  	</div>
+                                  </div>
+                                  <div class="carousel-footer"><button class="btn btn-danger w-100" type="button" data-bs-dismiss="modal">Close</button></div>
+							 	</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  main > experience >photos > nature-->		
+			<div class="col">
+				<div class="card shadow">
+					<div class="card-body">
+						<i class="bi bi-camera-video fs-3 text-danger"></i>
+						<h5 class="card-title">Nature Photos</h5>
+						<p class="card-text">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus commodi quos eaque perferendis ullam magni sunt ipsam aspernatur quas saepe.</p>
+						<a href="#" class="btn btn-danger" role="button" data-bs-toggle="modal" data-bs-target="#nature_photos">View Photos</a>
+						<div class="modal fade" id="nature_photos" aria-hidden="true" tabindex="-1">
+							<div class="modal-dialog modal-dialog-center">
+							 <div class="modal-content">
+							 	<div class="modal-header">
+							 	<div class="modal-title">Nature Photos</div>
+							 	<button class="btn btn-close" type="button" data-bs-dismiss="modal"></button>
+							 	</div>
+                                  <div class="modal-body">
+                                  	<div class="carousel slide" id="nature_photoscap" data-bs-ride="carousel">
+                                  		<div class="carousel-indicators">
+                                  			<button class="active" type="button" data-bs-target="#nature_photoscap" data-bs-slide-to="0" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#nature_photoscap" data-bs-slide-to="1" aria-current="true"></button>
+                                  			<button type="button" data-bs-target="#nature_photoscap" data-bs-slide-to="2" aria-current="true"></button>
+                                  		</div>
+                                  		<div class="carousel-inner">
+                                  			<div class="carousel-item active">
+                                  				<img src="https://source.unsplash.com/weekly?nature/" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>First Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?nature/blue" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Second Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  			<div class="carousel-item">
+                                  				<img src="https://source.unsplash.com/weekly?nature/red" alt="..." class="d-block w-100"/>
+                                  				<div class="carousel-caption d-none d-md-block">
+                                  					<h5>Third Slide</h5>
+                                  					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Sapiente, numquam!</p>
+                                  				</div>
+                                  			</div>
+                                  		</div>
+                                  		<button type="button" class="carousel-control-prev" data-bs-target="#nature_photoscap" data-bs-slide="prev">
+                                  			<span class="carousel-control-prev-icon"> </span>
+                                  		</button>
+                                  		<button type="button" class="carousel-control-next" data-bs-target="#nature_photoscap" data-bs-slide="next">
+                                  			<span class="carousel-control-next-icon"> </span>
+                                  		</button>
+                                  	</div>
+                                  </div>
+                                  <div class="carousel-footer"><button class="btn btn-danger w-100" type="button" data-bs-dismiss="modal">Close</button></div>
+							 	</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+
+		</section>
+	<!-- main > portfolio-->
+	<section id="portfolio" class="row mx-5">
+		<div class="col-12 mt-5 text-center text-sm-start" style="width: 500px">
+		
+				<div class="card-header bg-white font-monospace text-secondary">Portfolio</div>
+				<div class="card-body">
+					<h5 class="card-title display-1 fw-bold">Take a look at my work</h5>
+					<p class="card-text text-secondary mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dignissimos ut tempora, vitae, perferendis impedit molestiae praesentium omnis dicta neque.</p>
+				</div>
+		</div>
+		<div class="col-12 my-5">
+			<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 align-items-center text-center text-sm-start">
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/mDongijhfFA" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit, amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/CIdZmFmt8xE" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum, dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white  text-center">
+						<img src="https://source.unsplash.com/aJYO8JmVodY" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum, dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/bmvz3RJGavY" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem, ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/CZGbsuSIHGg" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/4TBSG2Oqu0Q" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/lh8rDWJKLPc" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/Z8Yb7ig15rs" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card bg-dark text-white text-center">
+						<img src="https://source.unsplash.com/GgaXnC1yD7A" alt="">
+						<div class="card-img-overley">
+							<div class="card-title">Card Title</div>
+							<p class="card-text">Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	</main>
+	
+	<!-- footer -->
+	<footer class="text-center bg-dark text-light p-5">
+		<p class="fw-light">&copy; Your Company Name 2022, All Right Reserved</p>
+		<div class="flex-row fs-4">
+			<i class="bi bi-facebook p-2"></i>
+			<i class="bi bi-instagram p-2"></i>
+			<i class="bi bi-twitter p-2"></i>
+			<i class="bi bi-envelope-fill p-2"></i>
+		</div>
+
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script>
+</body>
+</html>
